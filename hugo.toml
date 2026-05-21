@@ -1,0 +1,5 @@
+baseURL = "https://khcomic.com/"
+languageCode = "zh-tw"
+title = "KH Comic"
+theme = "not-much"
+
