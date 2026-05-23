@@ -1,0 +1,54 @@
+{{ define "main" }}
+  <div class="container pt-5">
+    <div class="row mt-5 pt-5">
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
+    <div class="post">
+      <header class="mb-4">
+        <h1 class="text-uppercase">{{ .Title }}</h1>
+        {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+        {{ $dateHuman := .Date | time.Format ":date_long" }}
+		{{ $TimeHuman := .Date | time.Format ":time_short" }}
+        <div aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item small">
+              {{ if .Draft }}
+              <span class="draft-label">DRAFT</span> &#183;
+              {{ end }}
+              Posted - <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+			  - <time datetime="{{ $dateMachine }}">{{ $TimeHuman }}</time>
+            </li>
+            {{ $lastModMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
+            {{ if and (isset .Params "lastmod") (ne $lastModMachine $dateMachine) }}
+            {{ $lastModDateHuman := .Lastmod | time.Format ":date_long" }}
+			{{ $lastModTimeHuman := .Lastmod | time.Format ":time_short" }}
+            <li class="breadcrumb-item small">
+              Updated - <time datetime="{{ $lastModMachine }}">{{ $lastModDateHuman }}</time>
+			  - <time datetime="{{ $dateMachine }}">{{ $lastModTimeHuman }}</time>
+            </li>
+            {{ end }}
+          </ol>
+        </div>
+      </header>
+      {{ if .Params.toc }}
+      <div class="toc small">
+        <p class="toc-title fw-semibold">
+          Table of Contents:
+        </p>
+        {{ .TableOfContents }}
+      </div>
+      {{ end }}
+      <article>
+        {{ .Content }}
+      </article>
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+      {{ partial "post-pagination.html" . }}
+      {{ if .Params.comments }}
+        {{ partial "comments.html" . }}
+      {{ end }}
+    </div>
+  </div>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+{{ end }}
