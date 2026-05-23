@@ -5,9 +5,9 @@ tags = ["ねこじた宗介", "M2", "東立", "單集"]
 draft = false
 lastmod = 2026-05-24T04:12:58+08:00
 +++
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif/202605/20260522/nekojita1.jpg)
 <!--more-->
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita1.jpg)
+
 
 看書名本來要略過的，
 
@@ -27,11 +27,19 @@ lastmod = 2026-05-24T04:12:58+08:00
 
 我超喜歡攻陽光開朗，但是會為了上司小狗眼，
 
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita2.jpg)
+
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita3.jpg)
+
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita4.jpg)
+
 然後受根本是個大魅魔😍
 
 平常一絲不苟但是在部下面前突然害羞，
 
 那個臉根本回眸一笑百媚生！！！
+
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita5.jpg)
 
 -
 
@@ -60,3 +68,13 @@ lastmod = 2026-05-24T04:12:58+08:00
 尤其是在快樂的時候的各種臉，
 
 我真的是發瘋😍這就留給你自己去看😘😘😘
+
+-
+
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita6.jpg)
+
+之前在脆上大流行的這部就是老師的同人喔！
+
+裡面甚至有《看似冷漠的上司》的刪除分鏡= =
+
+是不是太超值？？？

@@ -1,6 +1,6 @@
 baseURL = "https://khcomic.com/"
 languageCode = "zh-tw"
-title = "KH Comic."
+title = "📚K.H. Comic"
 theme = "not-much"
 
 [params]
