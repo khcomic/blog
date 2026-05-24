@@ -41,13 +41,14 @@
       </article>
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       <div data-pagefind-ignore>{{ partial "post-pagination.html" . }}</div>
-      <div data-pagefind-ignore id="cusdis_thread"
+	  <div class="mt-5"><a href="#top" class="text-decoration-none">📌回到頁面最上方</a></div>
+      <div class="mt-5"  id="cusdis_thread"
         data-host="https://cusdis.com"
         data-app-id="94a3f6f2-c51f-4e1e-8653-7f2cd5174575"
         data-page-id="{{ .RelPermalink }}"
         data-page-url="{{ .Permalink }}"
         data-page-title="{{ .Title }}"
-		data-lang="zh-tw"
+		data-pagefind-ignore
       ></div>
       <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
       <style>

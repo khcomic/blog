@@ -1,3 +1,10 @@
+<script>
+  (function() {
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.style.backgroundColor = '#212529';
+    }
+  })();
+</script>
 {{ $title := print .Site.Title " | " .Title}}
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 <meta charset="utf-8">
