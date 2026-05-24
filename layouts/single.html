@@ -53,18 +53,19 @@
         #cusdis_thread iframe {
           width: 100%;
           border: none;
+          display: block;
         }
       </style>
       <script>
-        window.addEventListener('message', function(e) {
-          if (e.origin !== 'https://cusdis.com') return;
-          if (e.data && e.data.from === 'cusdis') {
-            var iframe = document.querySelector('#cusdis_thread iframe');
-            if (iframe && e.data.height) {
-              iframe.style.height = e.data.height + 'px';
-            }
+        var cusdisInterval = setInterval(function() {
+          var iframe = document.querySelector('#cusdis_thread iframe');
+          if (iframe) {
+            try {
+              var height = iframe.contentWindow.document.body.scrollHeight;
+              iframe.style.height = height + 'px';
+            } catch(e) {}
           }
-        });
+        }, 500);
       </script>
     </div>
   </div>
