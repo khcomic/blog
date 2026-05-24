@@ -4,13 +4,12 @@ let selected = new Set();
 const results = document.getElementById('results');
 
 // 初始狀態
-results.innerHTML = `<div class="text-muted">未篩選</div>`;
 
 fetch('/index.json')
   .then(res => res.json())
   .then(data => {
     posts = data;
-    render(posts);
+    applyFilters();
   });
 
 function render(items) {
@@ -54,15 +53,17 @@ document.querySelectorAll('.filter-tag').forEach(el => {
 
 function applyFilters() {
 
-  // 未選擇 → 初始狀態
+  // ① 未選任何 tag → 顯示未篩選
   if (selected.size === 0) {
-    render(posts);
+    results.innerHTML = `<div class="text-muted">目前沒有篩選任何tag</div>`;
     return;
   }
 
+  // ② 篩選資料
   const filtered = posts.filter(post =>
     [...selected].every(tag => post.tags.includes(tag))
   );
 
+  // ③ render 結果
   render(filtered);
 }
