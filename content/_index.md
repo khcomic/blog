@@ -9,6 +9,10 @@ draft = false
 
 🎈這裡是KH的漫畫分享站。
 
+請點擊上方的posts進入文章列表，
+
+或是從tags開始看看各式各樣的內容！
+
 ---
 - MILESTONE
 
