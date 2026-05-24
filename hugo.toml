@@ -49,7 +49,7 @@ summaryLength = 10
 	
   [[menu.main]]
     identifier = "threads_old"
-    name = "my origin"
+    name = "legacy"
     title = "Threads"
     url = "https://www.threads.com/@kh.blcomic"
     weight = 6
