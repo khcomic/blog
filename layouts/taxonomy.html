@@ -1,9 +1,6 @@
 {{ define "main" }}
 <div class="container pt-5">
 
-    <div class="row mt-5 pt-5">
-        {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-    </div>
 
     <!-- ========================= -->
     <!-- ① STATIC CATEGORY VIEW -->
@@ -41,14 +38,30 @@
     {{ end }}
     </div>
 
-    <!-- 出版社 -->
-    <span class="terms-char d-block mt-3 mb-2">出版社</span>
+    <!-- 台灣出版社 -->
+    <span class="terms-char d-block mt-3 mb-2">台灣出版社</span>
 
-    {{ $publishers := slice "東立" "長鴻" "尖端" "東販" "青文" "悅文社" "大塊" "大辣" "臉譜" "平心" "威向" "朧月" "留守番" "更生文化" "未來數位" "十羽" "瑪朵" "尚禾" "大然" "尊龍" "晨星" "悅知文化" }}
+    {{ $tpublishers := slice "東立" "長鴻" "尖端" "東販" "青文" "悅文社" "大塊" "大辣" "臉譜" "平心" "威向" "朧月" "留守番" "更生文化" "未來數位" "十羽" "瑪朵" "尚禾" "大然" "尊龍" "晨星" "悅知文化" }}
 
     <div class="d-flex flex-wrap gap-2">
     {{ range sort .Site.Taxonomies.tags }}
-        {{ if in $publishers .Page.Title }}
+        {{ if in $tpublishers .Page.Title }}
+            <a class="badge bg-light text-dark text-decoration-none"
+               href="{{ .Page.Permalink }}">
+                {{ .Page.Title }} ({{ .Count }})
+            </a>
+        {{ end }}
+    {{ end }}
+    </div>
+	
+	<!-- 日本出版社 -->
+    <span class="terms-char d-block mt-3 mb-2">日本出版社</span>
+
+    {{ $jpublishers := slice "東京漫画社" "竹書房" "祥伝社" "一迅社" "芳文社" "英和出版社" "秋水社" "オーバーラップ(Overlap)"}}
+
+    <div class="d-flex flex-wrap gap-2">
+    {{ range sort .Site.Taxonomies.tags }}
+        {{ if in $jpublishers .Page.Title }}
             <a class="badge bg-light text-dark text-decoration-none"
                href="{{ .Page.Permalink }}">
                 {{ .Page.Title }} ({{ .Count }})
@@ -64,7 +77,7 @@
     {{ range sort .Site.Taxonomies.tags }}
         {{ if and
             (not (in $series .Page.Title))
-            (not (in $publishers .Page.Title))
+            (not (in $tpublishers .Page.Title))
             (ne .Page.Title "電子書")
         }}
             <a class="badge bg-light text-dark text-decoration-none"
@@ -82,27 +95,36 @@
   <hr class="my-5">
 
   <!-- FILTER -->
-  <h5>標籤篩選</h5>
+  <h3>標籤篩選</h3>
   
   <!-- ================= -->
-  <!-- 出版社 -->
+  <!-- 台灣出版社 -->
   <!-- ================= -->
-  <span class="terms-char d-block mt-3 mb-2">出版社</span>
+  <span class="terms-char d-block mt-3 mb-2">台灣出版社</span>
   
   <div class="d-flex flex-wrap gap-2" id="filter-publisher">
   
-    {{ range $publishers }}
+    {{ range $tpublishers }}
+      <a class="badge bg-light text-dark text-decoration-none filter-tag"
+         data-tag="{{ . }}">
+        {{ . }}
+      </a>
+    {{ end }}
   
-      {{ $tag := . }}
-      {{ with index $.Site.Taxonomies.tags $tag }}
+  </div>
   
-        <a class="badge bg-light text-dark text-decoration-none filter-tag"
-           data-tag="{{ $tag }}">
-          {{ $tag }}
-        </a>
+  <!-- ================= -->
+  <!-- 日本出版社 -->
+  <!-- ================= -->
+  <span class="terms-char d-block mt-3 mb-2">日本出版社</span>
   
-      {{ end }}
+  <div class="d-flex flex-wrap gap-2" id="filter-publisher">
   
+    {{ range $jpublishers }}
+      <a class="badge bg-light text-dark text-decoration-none filter-tag"
+         data-tag="{{ . }}">
+        {{ . }}
+      </a>
     {{ end }}
   
   </div>
@@ -133,7 +155,7 @@
   <!-- ================= -->
   <!-- 結果 -->
   <!-- ================= -->
-  <div id="results" class="mt-5"></div>
+  <div id="results" class="mt-3"></div>
   
   <script src="/js/filter.js"></script>
 

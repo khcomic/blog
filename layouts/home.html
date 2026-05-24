@@ -2,19 +2,10 @@
 {{ $title := print .Site.Title " | " .Title}}
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 <div class="container pt-5">
-    <div class="row mt-5 pt-5">
-        <div class="col-md-12">
-            <h1>{{ $title }}</h1>
-			{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-            {{ if isset .Params "lead" }}
-            <p class="lead pb-2">
-                <span class="underline">{{ .Params.lead }}</span>
-            </p>
-            {{ end }}
-            <p class="lh-lg">
-                {{ .Content }}
-            </p>
-        </div>
+    <div class="col-md-12">
+        <p class="lh-lg">
+            {{ .Content }}
+        </p>
     </div>
 </div>
 {{ end }}
