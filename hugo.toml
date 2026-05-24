@@ -10,6 +10,9 @@ showThemeNotice = true
 showPostsSummary = true
 summaryLength = 10
 
+[outputs]
+home = ["HTML", "JSON"]
+
 # Navigation
 [menu]
   [[menu.main]]
