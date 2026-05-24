@@ -4,7 +4,7 @@ title = "📚K.H. Comic"
 theme = "not-much"
 
 [params]
-theme = "auto"
+theme = "light"
 palette = "eink"
 showThemeNotice = true
 showPostsSummary = true
