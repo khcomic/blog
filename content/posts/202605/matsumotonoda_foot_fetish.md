@@ -4,6 +4,7 @@ date = 2026-05-20T20:00:00+08:00
 tags = ["松本ノダ", "長鴻", "悅文社", "單集", "電子書", "秋水社"]
 draft = false
 lastmod = 2026-05-24T04:46:52+08:00
+image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto1.jpg"
 +++
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto1.jpg)

@@ -4,6 +4,7 @@ date = 2025-05-16T00:00:00+08:00
 tags = ["tacocasi", "尖端", "單集", "電子書", "東京漫画社"]
 draft = false
 lastmod = 2026-05-24T14:01:12+08:00
+image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/0.jpg"
 +++
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/0.jpg)

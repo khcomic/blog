@@ -4,6 +4,7 @@ date = 2026-05-02T16:00:00+08:00
 tags = ["秀良子", "東立", "長篇", "祥伝社"]
 draft = false
 lastmod = 2026-05-24T18:01:17+08:00
+image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold0.jpg"
 +++
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold0.jpg)

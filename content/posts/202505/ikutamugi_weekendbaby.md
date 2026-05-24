@@ -4,6 +4,7 @@ date = 2025-05-16T20:30:00+08:00
 tags = ["幾田むぎ", "東立", "單集", "電子書", "竹書房"]
 draft = false
 lastmod = 2026-05-24T17:45:52+08:00
+image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend0.jpg"
 +++
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend0.jpg)
