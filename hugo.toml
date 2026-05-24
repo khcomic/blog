@@ -15,12 +15,12 @@ home = ["HTML", "JSON"]
 
 # Navigation
 [menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "home"
-    title = "Home"
-    url = "/"
-    weight = 1
+  #[[menu.main]]
+  #  identifier = "home"
+  #  name = "home"
+  #  title = "Home"
+  #  url = "/"
+  #  weight = 1
 
   [[menu.main]]
     identifier = "about"
