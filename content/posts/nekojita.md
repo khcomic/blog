@@ -1,12 +1,12 @@
 +++
 title = 'ねこじた宗介《看似冷漠的上司其實是色色純情男》'
-date = 2026-05-22T20:00:00+08:00
+date = 2026-05-13T20:00:00+08:00
 tags = ["ねこじた宗介", "M2", "東立", "單集"]
 draft = false
 lastmod = 2026-05-24T04:12:58+08:00
 +++
 <!--more-->
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita1.jpg)
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita1.jpg)
 
 
 看書名本來要略過的，
@@ -27,11 +27,11 @@ lastmod = 2026-05-24T04:12:58+08:00
 
 我超喜歡攻陽光開朗，但是會為了上司小狗眼，
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita2.jpg)
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita2.jpg)
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita3.jpg)
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita3.jpg)
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita4.jpg)
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita4.jpg)
 
 然後受根本是個大魅魔😍
 
@@ -39,7 +39,7 @@ lastmod = 2026-05-24T04:12:58+08:00
 
 那個臉根本回眸一笑百媚生！！！
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita5.jpg)
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita5.jpg)
 
 -
 
@@ -71,7 +71,7 @@ lastmod = 2026-05-24T04:12:58+08:00
 
 -
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260522/nekojita6.jpg)
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita6.jpg)
 
 之前在脆上大流行的這部就是老師的同人喔！
 
