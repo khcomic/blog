@@ -1,5 +1,5 @@
 +++
-title = 'About'
+title = 'KH Comic'
 date = 2026-05-24T01:41:04+08:00
 draft = false
 +++
