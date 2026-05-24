@@ -40,7 +40,7 @@
         {{ .Content }}
       </article>
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-      {{ partial "post-pagination.html" . }}
+      <div data-pagefind-ignore>{{ partial "post-pagination.html" . }}</div>
       {{ if .Params.comments }}
         {{ partial "comments.html" . }}
       {{ end }}

@@ -58,8 +58,15 @@ home = ["HTML", "JSON"]
     weight = 6
 	
   [[menu.main]]
+    identifier = "search"
+    name = "search"
+    title = "Search"
+    url = "/search"
+    weight = 7
+
+  [[menu.main]]
     identifier = "contact"
     name = "contact"
     title = "Threads"
     url = "mailto:kh.bl.comic@gmail.com"
-    weight = 7
+    weight = 8
