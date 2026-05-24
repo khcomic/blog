@@ -10,7 +10,7 @@ draft = false
 📚這裡是KH的漫畫分享站。
 
 ---
-2025.05.16 / `kh.blcomic`第一篇心得是tacocasi《午夜兩點怦然心動的古書店奇譚》。
+2025.05.16 / `kh.blcomic`第一篇心得是[tacocasi《午夜兩點怦然心動的古書店奇譚》](posts/tacocasi/)。
 
 2026.05.20 / `kh.blcomic`因為[足控](posts/matsumotonoda/)被Meta狙擊殞落😇。它度過了燦爛的一年，謝謝祖。
 
