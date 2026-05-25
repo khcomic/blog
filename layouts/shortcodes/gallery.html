@@ -1,0 +1,10 @@
+<div class="gallery-scroll my-4">
+  {{ range split (.Get "images") "|" }}
+    {{ $url := trim . " " }}
+    {{ if $url }}
+      <a href="{{ $url }}" class="glightbox" data-gallery="gallery-{{ $.Ordinal }}">
+        <img src="{{ $url }}" alt="">
+      </a>
+    {{ end }}
+  {{ end }}
+</div>

@@ -4,6 +4,7 @@ date = 2026-05-02T16:00:00+08:00
 tags = ["秀良子", "東立", "長篇", "祥伝社"]
 draft = false
 lastmod = 2026-05-24T18:01:17+08:00
+summary = "人生的重量真的太重了。花上一輩子喜歡一個人，是什麼感覺呢？"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold0.jpg"
 +++
 <!--more-->

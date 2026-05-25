@@ -1,6 +1,9 @@
-<details class="spoiler-box">
+<details class="spoiler-box my-4">
   <summary>{{ .Get "title" }}</summary>
   <div class="spoiler-content">
-    {{ .Inner | markdownify }}
+    {{ .InnerDeindent | markdownify }}
+  </div>
+  <div class="text-end mt-2">
+    <button onclick="this.closest('details').removeAttribute('open')" class="btn btn-sm btn-outline-secondary">收起</button>
   </div>
 </details>

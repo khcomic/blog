@@ -4,6 +4,7 @@ date = 2026-05-13T20:00:00+08:00
 tags = ["M2/ねこじた宗介", "東立", "單集", "オーバーラップ(Overlap)"]
 draft = false
 lastmod = 2026-05-24T04:12:58+08:00
+summary = "看書名本來要略過的，結果定睛一看！竟然是貓舌宗介老師😍老師是台灣人！！！"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita1.jpg"
 +++
 <!--more-->
