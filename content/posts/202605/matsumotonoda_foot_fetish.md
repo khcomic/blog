@@ -14,23 +14,23 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/ma
 
 ✅電子單話版《嗅聞、舔吻、用力摩擦我。～從腳尖感受到的愛～》
 
--
+.
 
 這部跟我之前看了很喜歡的《性急狗狗的調教方法》同一個作者！
 
--
+.
 
 超讚ㄉ足控本……😍
 
 好喜歡ㄋㄡ……
 
--
+.
 
 老師的畫風不是最漂亮的，
 
 但是色的程度絕對是榜上有名👍🏻👍🏻👍🏻
 
--
+.
 
 這本有好多好多我愛的元素，
 
@@ -42,36 +42,24 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/ma
 
 喜歡腳腳……😣
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto2.jpg)
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto2.jpg|hhttps://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto3.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto4.jpg" >}}
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto3.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto4.jpg)
-
--
+.
 
 有感情潔癖的朋友，這本不太適合你，
 
 接受度高的朋友請來參考看看😘
 
--
+.
 
 本來以為是純肉本，
 
 結果意外地還是有被感動到🥰
 
--
+.
 
 貼幾張圖挑戰看看👉🏻👈🏻
 
 `2026/05/24 註: 挑戰失敗大爆笑` ![](https://images.khcomic.com/cdn-cgi/image/f=avif/meme/clap.gif)
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto5.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto6.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto7.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto8.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto9.jpg)
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto5.jpg|hhttps://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto6.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto7.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto8.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto9.jpg" >}}

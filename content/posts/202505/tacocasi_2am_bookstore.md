@@ -34,15 +34,9 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/0.
 
 而且好喜歡神明華麗的衣服！每次tacocasi老師設計角色都好用心🤲🏻
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/2.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/4.jpg)
-
 想要被治癒就來看這本🥺！
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/5.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/6.jpg)
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/2.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/4.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/5.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/6.jpg" >}}
 
 🔽突然展現霸道ㄉ陽藏先生😍
 

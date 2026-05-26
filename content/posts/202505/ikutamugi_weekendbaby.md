@@ -20,14 +20,10 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/we
 
 好甜好笨ㄉ愛😍！
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend2.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend3.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend4.jpg)
-
 **帶腦看的話會有點出戲，所以放空看就好**，但是有好看的肉肉😍✨
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend5.jpg)
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend2.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend3.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend4.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend5.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend6.jpg" >}}
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend6.jpg)
+
+
+

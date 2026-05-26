@@ -36,7 +36,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.
 
 非常開心🥺✨
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/2.jpg)
+![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/2.jpg)
 
 .
 
