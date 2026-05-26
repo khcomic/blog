@@ -14,7 +14,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/st
 
 花上一輩子喜歡一個人，是什麼感覺呢？
 
--
+.
 
 當愛意是以十年為單位來計算，
 
@@ -30,7 +30,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/st
 
 用下一個幾年來消化。
 
--
+.
 
 這部故事我想把它定義成群像劇，
 
@@ -48,11 +48,9 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/st
 
 就連與舅舅吃飯的幾位老同學也都很有故事。
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold1.jpg)
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold1.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold2.jpg" >}} 
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold2.jpg)
-
--
+.
 
 我感受到老師的用心，
 
@@ -60,7 +58,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/st
 
 而是賦予他們登場的意義。
 
--
+.
 
 雖然是BL，但也不只是BL。
 
@@ -70,7 +68,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/st
 
 少了人生目標就一蹶不振等等。
 
--
+.
 
 正因這部是大長篇，很多細節可以討論，說也說不完。
 

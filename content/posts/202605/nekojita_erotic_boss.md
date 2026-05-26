@@ -21,7 +21,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/ne
 
 提到一次說一次😍
 
--
+.
 
 我真的是要瘋掉🤩🤩🤩
 
@@ -29,11 +29,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/ne
 
 我超喜歡攻陽光開朗，但是會為了上司小狗眼，
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita2.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita3.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita4.jpg)
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita2.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita3.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita4.jpg" >}} 
 
 然後受根本是個大魅魔😍
 
@@ -41,15 +37,15 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/ne
 
 那個臉根本回眸一笑百媚生！！！
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita5.jpg)
+![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita5.jpg)
 
--
+.
 
 而且老師的肉真的畫得超色，
 
 但圖根本不能放啊啊啊啊啊！
 
--
+.
 
 老師的身體曲線畫得超～～～～好看！
 
@@ -63,7 +59,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/ne
 
 第一次看到有人把這個題材畫進本但根本超色超合理😍
 
--
+.
 
 反正就是超喜歡😍
 
@@ -71,10 +67,9 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/ne
 
 我真的是發瘋😍這就留給你自己去看😘😘😘
 
--
+.
 
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita6.jpg)
-
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita6.jpg" >}}
 之前在脆上大流行的這部就是老師的同人喔！
 
 裡面甚至有《看似冷漠的上司》的刪除分鏡= =
