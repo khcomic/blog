@@ -42,7 +42,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/ma
 
 喜歡腳腳……😣
 
-{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto2.jpg|hhttps://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto3.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto4.jpg" >}}
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto2.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto3.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto4.jpg" >}}
 
 .
 
