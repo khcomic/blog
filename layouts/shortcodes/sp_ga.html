@@ -1,0 +1,21 @@
+<details class="spoiler-box my-4">
+  <summary>{{ .Get "title" }}</summary>
+  <div class="spoiler-content">
+    <div class="gallery-scroll">
+      {{ range split (.Get "images") "|" }}
+        {{ $url := trim . " " }}
+        {{ if $url }}
+          <a href="{{ $url }}" class="glightbox" data-gallery="gallery-{{ $.Ordinal }}">
+            <figure class="gallery-item">
+              <img src="{{ $url }}" alt="">
+              <div class="gallery-overlay"></div>
+            </figure>
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <div class="text-end mt-2">
+    <button onclick="this.closest('details').removeAttribute('open')" class="btn btn-sm btn-outline-secondary">收起</button>
+  </div>
+</details>

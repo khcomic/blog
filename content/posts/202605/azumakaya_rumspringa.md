@@ -14,9 +14,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.
 
 <!--
 {{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/1.jpg" >}}-->
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.jpg)
-
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/1.jpg)
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/1.jpg" >}}
 
 老師的作品是我入坑初期接觸的，
 
@@ -42,7 +40,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.
 
 .
 
-🔽提奧Q版超可愛😍(右滑)
+🔽提奧Q版超可愛😍
 {{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/3.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/4.jpg" >}}
 
 
@@ -77,7 +75,6 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.
 
 .
 
-👉🏻👉🏻👉🏻向右滑
 {{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/5.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/6.jpg" >}}
 
 {{< spoiler title="點開是初期小劇透" >}}
@@ -100,7 +97,8 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.
 
 我手上的是東立於2021年12月30日三刷的書，以後應該還是有很大機會再版。有機會請不要錯過！
 
-{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/7.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/8.jpg" >}}
+{{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/7.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/8.jpg" >}} 
+
 
 
 

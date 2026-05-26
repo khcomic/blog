@@ -7,11 +7,42 @@
 
 .gallery-scroll a {
   flex-shrink: 0;
+  display: block;
 }
 
-.gallery-scroll img {
-  height: 450px;
+.gallery-item {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.gallery-item img {
+  height: 250px;
   width: auto;
   display: block;
+}
+
+.gallery-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.65);
+  transition: opacity 0.3s ease;
   border-radius: 4px;
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 0;
+}
+
+.gallery-item {
+  cursor: zoom-in;
+}
+
+.gallery-item img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
 }

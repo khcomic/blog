@@ -4,7 +4,23 @@
 <div class="container pt-5">
     <div class="col-md-12">
         <p class="lh-lg">
-            {{ .Content }}
+            {{ readFile "data/home_top.md" | markdownify }}
+        </p>
+    </div>
+    <div class="col-md-12 mt-4 mb-4">
+        <p>最近更新</p>
+        {{ range first 2 (.Site.RegularPages.ByLastmod.Reverse) }}
+        <div class="row mb-3">
+            {{ $dateMachine := .Lastmod | time.Format "2006-01-02T15:04:05-07:00" }}
+            {{ $dateHuman := .Lastmod | time.Format ":date_long" }}
+            <time class="small" datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+            <p class="mb-0"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+        </div>
+        {{ end }}
+    </div>
+    <div class="col-md-12">
+        <p class="lh-lg">
+            {{ readFile "data/home_bottom.md" | markdownify }}
         </p>
     </div>
 </div>

@@ -3,7 +3,10 @@
     {{ $url := trim . " " }}
     {{ if $url }}
       <a href="{{ $url }}" class="glightbox" data-gallery="gallery-{{ $.Ordinal }}">
-        <img src="{{ $url }}" alt="">
+        <figure class="gallery-item">
+          <img src="{{ $url }}" alt="">
+          <div class="gallery-overlay"></div>
+        </figure>
       </a>
     {{ end }}
   {{ end }}

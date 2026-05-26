@@ -1,0 +1,23 @@
+/* spoiler */
+.spoiler-box {
+  background-color: #fff8f0;
+  border-left: 4px solid #f0a050;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.spoiler-box summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #c07030;
+}
+
+/* gallery */
+.gallery-scroll {
+  background-color: #e9e9e9;
+  border-left: 4px solid #6090d0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
