@@ -13,6 +13,9 @@ summaryLength = 10
 [outputs]
 home = ["HTML", "JSON"]
 
+[markup.goldmark.renderer]
+unsafe = true
+
 # Navigation
 [menu]
   #[[menu.main]]
