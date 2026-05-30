@@ -54,3 +54,4 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/fr
 2026/05/30 註 - [寫完了](../sosso_3years/)。
 
 {{< sp_ga title="結局劇透，但是可以體會老師的古怪魅力！" images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/friday_03.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/friday_04.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/friday_05.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/friday_06.jpg" >}}
+{{< /sp_ga >}}
