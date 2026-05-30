@@ -66,6 +66,6 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251224/0.
 
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251224/eye.jpg)
 
-🔽跟下集的關聯！
+🔽跟[下集](../sosso_friday/)的關聯！
 
 ![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251224/99.jpg)
