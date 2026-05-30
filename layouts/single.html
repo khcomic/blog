@@ -39,9 +39,9 @@
       <article>
         {{ .Content }}
       </article>
-	  {{ $series := hugo.Data.taxonomy.series }}
-      {{ $tpublishers := hugo.Data.taxonomy.tpublishers }}
-      {{ $jpublishers := hugo.Data.taxonomy.jpublishers }}
+	  {{ $series := site.Data.taxonomy.series }}
+	  {{ $tpublishers := site.Data.taxonomy.tpublishers }}
+	  {{ $jpublishers := site.Data.taxonomy.jpublishers }}
 
       {{ $authorTag := "" }}
       {{ range .GetTerms "tags" }}
