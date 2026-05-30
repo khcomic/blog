@@ -10,7 +10,16 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251224/0.
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251224/0.jpg)
 
+{{< spoiler title="寫在前面" >}}
 
+目前關聯作品共兩部，
+<br>出版順序是《馬耳東風已三年》、《星期五的自助洗衣店》，
+<br>不過我當時閱讀的順序是反過來。
+
+所以我寫心得的時候也是依照閱讀順序，
+<br>當初閱讀時沒有先查好，抱歉造成困擾！
+
+{{< /spoiler >}}
 
 
 雖然昨天不小心先看了續作，
