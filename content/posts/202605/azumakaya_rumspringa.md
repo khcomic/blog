@@ -4,6 +4,7 @@ date = 2026-05-25T22:50:55+08:00
 tags = ["吾妻香夜", "東立", "長篇", "心交社"]
 draft = false
 lastmod = 2026-05-25T22:50:55+08:00
+booktitle = "《徘徊期少年》"
 summary = "好的BL之所以好看絕對不只是因為它是BL，而是因為他它先是個好故事，再來才因為BL加分。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260525/0.jpg"
 +++

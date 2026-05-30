@@ -39,6 +39,48 @@
       <article>
         {{ .Content }}
       </article>
+	  {{ $series := hugo.Data.taxonomy.series }}
+      {{ $tpublishers := hugo.Data.taxonomy.tpublishers }}
+      {{ $jpublishers := hugo.Data.taxonomy.jpublishers }}
+
+      {{ $authorTag := "" }}
+      {{ range .GetTerms "tags" }}
+        {{ $tag := .Page.Title }}
+        {{ if and
+          (not (in $series $tag))
+          (not (in $tpublishers $tag))
+          (not (in $jpublishers $tag))
+          (ne $tag "電子書")
+          (eq $authorTag "")
+        }}
+          {{ $authorTag = $tag }}
+        {{ end }}
+      {{ end }}
+
+      {{ if $authorTag }}
+        {{ $currentPermalink := .Permalink }}
+        {{ $related := slice }}
+        {{ range $.Site.Taxonomies.tags.Get $authorTag }}
+          {{ if and (ne .Page.Permalink $currentPermalink) .Page.Params.image }}
+            {{ $related = $related | append .Page }}
+          {{ end }}
+        {{ end }}
+        {{ $related = $related | uniq }}
+
+        {{ if $related }}
+        <div class="mt-5" data-pagefind-ignore>
+          <p class="small">同作者其他作品</p>
+          <div class="related-scroll">
+            {{ range $related }}
+            <a href="{{ .RelPermalink }}" class="related-item text-decoration-none">
+              <img src="{{ .Params.image }}" alt="{{ .Params.booktitle }}">
+              <p class="small mt-1 mb-0 text-center">{{ .Params.booktitle }}</p>
+            </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       <div data-pagefind-ignore>{{ partial "post-pagination.html" . }}</div>
 	  <div class="mt-5"><a href="#top" class="text-decoration-none">📌回到頁面最上方</a></div>

@@ -4,6 +4,7 @@ date = 2026-05-27T22:35:04+08:00
 tags = ["西田東/西田ヒガシ", "東立", "單集", "竹書房"]
 draft = true
 lastmod = 2026-05-27T22:35:04+08:00
+booktitle = "《天堂地獄一起闖》"
 summary = "好的BL之所以好看絕對不只是因為它是BL，而是因為他它先是個好故事，再來才因為BL加分。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/檔名"
 +++

@@ -4,6 +4,7 @@ date = 2025-05-16T00:00:00+08:00
 tags = ["tacocasi", "尖端", "單集", "電子書", "東京漫画社"]
 draft = false
 lastmod = 2026-05-24T14:01:12+08:00
+booktitle = "《午夜兩點怦然心動的古書店奇譚》"
 summary = "是老師一如既往的溫柔風格與鬼怪元素，讀完心暖暖的，像看了一本童書一樣溫馨又滿足😌"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/0.jpg"
 +++

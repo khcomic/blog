@@ -4,6 +4,7 @@ date = 2026-05-29T01:37:15+08:00
 tags = ["千代崎", "台灣角川", "長篇", "新書館"]
 draft = false
 lastmod = '2026-05-29T01:37:15+08:00'
+booktitle = "《愚笨軟弱難堪又如何》"
 summary = "好的BL之所以好看絕對不只是因為它是BL，而是因為他它先是個好故事，再來才因為BL加分。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260529/0.jpg"
 +++

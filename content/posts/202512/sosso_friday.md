@@ -4,6 +4,7 @@ date = 2025-12-23T00:00:00+08:00
 tags = ["SOSSO", "長鴻", "長篇", "電子書", "新書館"]
 draft = false
 lastmod = '2026-05-30T20:15:23+08:00'
+booktitle = "《星期五的自助洗衣店》"
 summary = "目前關聯作品共兩部，出版順序是《馬耳東風已三年》、《星期五的自助洗衣店》，不過我當時閱讀的順序是反過來。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/friday_00.jpg"
 +++

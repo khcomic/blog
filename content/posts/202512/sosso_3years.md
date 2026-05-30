@@ -4,6 +4,7 @@ date = 2025-12-24T00:00:00+08:00
 tags = ["SOSSO", "長鴻", "長篇", "電子書", "新書館"]
 draft = false
 lastmod = '2026-05-30T21:09:57+08:00'
+booktitle = "《馬耳東風已三年》"
 summary = "雖然昨天不小心先看了續作，但現在覺得以刺激程度，而不是好看程度，來說，好險是先看《星期五的自助洗衣店》。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251224/0.jpg"
 +++
