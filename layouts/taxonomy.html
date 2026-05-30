@@ -78,6 +78,7 @@
         {{ if and
             (not (in $series .Page.Title))
             (not (in $tpublishers .Page.Title))
+			(not (in $jpublishers .Page.Title))
             (ne .Page.Title "電子書")
         }}
             <a class="badge bg-light text-dark text-decoration-none"

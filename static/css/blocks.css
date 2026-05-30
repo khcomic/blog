@@ -13,6 +13,10 @@
   color: #c07030;
 }
 
+.spoiler-box[open] summary {
+  margin-bottom: 1.2rem;
+}
+
 /* gallery */
 .gallery-scroll {
   background-color: #e9e9e9;
