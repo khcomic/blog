@@ -22,6 +22,8 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/fr
 
 {{< /spoiler >}}
 
+**此文原於2025/12/23發表在threads @kh.blcomic。**
+
 {{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/friday_01.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251223/friday_02.jpg" >}}
 
 

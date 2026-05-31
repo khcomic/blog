@@ -11,6 +11,8 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/st
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260502/staygold0.jpg)
 
+**此文原於2026/05/02發表在threads @kh.blcomic。**
+
 人生的重量真的太重了。
 
 花上一輩子喜歡一個人，是什麼感覺呢？

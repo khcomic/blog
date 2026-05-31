@@ -11,6 +11,8 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/0.
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/0.jpg)
 
+**此文原於2025/05/16發表在threads @kh.blcomic。**
+
 ✅電子書（是尖端的，版權可能很快到期！）
 
 是老師一如既往的溫柔風格與鬼怪元素，

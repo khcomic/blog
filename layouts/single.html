@@ -42,6 +42,7 @@
 	  {{ $series := site.Data.taxonomy.series }}
 	  {{ $tpublishers := site.Data.taxonomy.tpublishers }}
 	  {{ $jpublishers := site.Data.taxonomy.jpublishers }}
+	  {{ $kpublishers := site.Data.taxonomy.jpublishers }}
 
       {{ $authorTag := "" }}
       {{ range .GetTerms "tags" }}
@@ -50,6 +51,7 @@
           (not (in $series $tag))
           (not (in $tpublishers $tag))
           (not (in $jpublishers $tag))
+		  (not (in $kpublishers $tag))
           (ne $tag "電子書")
           (eq $authorTag "")
         }}

@@ -11,6 +11,8 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/su
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/suki0.jpg)
 
+**此文原於2025/05/16發表在threads @kh.blcomic。**
+
 ✅電子書
 
 適合小劇場很多的M看。（例如我^^）

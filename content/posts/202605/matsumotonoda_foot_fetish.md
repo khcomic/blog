@@ -11,6 +11,8 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/ma
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260520/matsumoto1.jpg)
 
+**此文原於2026/05/20發表在threads @kh.blcomic。**
+
 松本ノダ《從趾間開始被愛》、
 
 ✅電子單話版《嗅聞、舔吻、用力摩擦我。～從腳尖感受到的愛～》

@@ -11,6 +11,8 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/we
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202505/20250516/weekend0.jpg)
 
+**此文原於2025/05/16發表在threads @kh.blcomic。**
+
 ✅電子書
 
 🔽年下高中生狗狗x好性感ㄉ上班族鼠叔

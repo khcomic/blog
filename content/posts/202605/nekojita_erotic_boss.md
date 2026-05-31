@@ -11,6 +11,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/ne
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260513/nekojita1.jpg)
 
+**此文原於2026/05/13發表在threads @kh.blcomic。**
 
 看書名本來要略過的，
 

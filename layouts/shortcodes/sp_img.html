@@ -1,0 +1,17 @@
+<details class="spoiler-box my-4">
+  <summary>{{ .Get "title" }}</summary>
+  <div class="spoiler-content">
+    {{ .InnerDeindent | markdownify }}
+    {{ with .Get "image" }}
+    <div style="display: block; clear: both;">
+      <div class="md-image-item has-fx" data-src="{{ . }}">
+        <img src="{{ . }}" alt="">
+        <div class="gallery-overlay"></div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  <div class="text-end mt-2">
+    <button onclick="this.closest('details').removeAttribute('open')" class="btn btn-sm btn-outline-secondary">收起</button>
+  </div>
+</details>

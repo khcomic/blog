@@ -34,6 +34,5 @@
 @media (max-width: 768px) {
   .post article a:not(.footnote-backref)::after, footer a::after {
     content: " \2197\FE0E";
-    font-size: 0.75em;
   }
 }

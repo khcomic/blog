@@ -22,6 +22,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251224/0.
 
 {{< /spoiler >}}
 
+**此文原於2025/12/24發表在threads @kh.blcomic。**
 
 雖然昨天不小心先看了續作，
 <br>但現在覺得以刺激程度，而不是好看程度，來說，

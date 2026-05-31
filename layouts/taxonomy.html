@@ -4,6 +4,7 @@
     {{ $series := site.Data.taxonomy.series }}
     {{ $tpublishers := site.Data.taxonomy.tpublishers }}
     {{ $jpublishers := site.Data.taxonomy.jpublishers }}
+	{{ $kpublishers := site.Data.taxonomy.jpublishers }}
 	
     <!-- ========================= -->
     <!-- ① STATIC CATEGORY VIEW -->
@@ -66,6 +67,20 @@
         {{ end }}
     {{ end }}
     </div>
+	
+	<!-- 韓國出版社 -->
+    <span class="terms-char d-block mt-3 mb-2">韓國出版社</span>
+
+    <div class="d-flex flex-wrap gap-2">
+    {{ range sort .Site.Taxonomies.tags }}
+        {{ if in $kpublishers .Page.Title }}
+            <a class="badge bg-light text-dark text-decoration-none"
+               href="{{ .Page.Permalink }}">
+                {{ .Page.Title }} ({{ .Count }})
+            </a>
+        {{ end }}
+    {{ end }}
+    </div>
 
     <!-- 作者 -->
     <span class="terms-char d-block mt-3 mb-2">作者</span>
@@ -76,6 +91,7 @@
             (not (in $series .Page.Title))
             (not (in $tpublishers .Page.Title))
 			(not (in $jpublishers .Page.Title))
+			(not (in $kpublishers .Page.Title))
             (ne .Page.Title "電子書")
         }}
             <a class="badge bg-light text-dark text-decoration-none"
