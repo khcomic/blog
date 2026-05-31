@@ -5,7 +5,7 @@ tags = ["咎井淳", "伯樂巷", "長篇", "リブレ(Libre)"]
 draft = false
 lastmod = '2026-05-31T18:56:03+08:00'
 booktitle = "《言之罪In These Words》"
-summary = "好的BL之所以好看絕對不只是因為它是BL，而是因為他它先是個好故事，再來才因為BL加分。"
+summary = "由鬼畜貓編劇、咎井淳(咎Q)作畫，社團名Guilt｜Pleasure，台灣的官方販售管道在伯樂巷。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202605/20260531/words_00.jpg"
 +++
 <!--more-->
