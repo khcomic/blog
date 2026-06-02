@@ -1,7 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
   const container = document.querySelector('.claps-container');
   const apiBase = 'https://claps.khcomic.com';
-
+  
+  // 總觀看次數
+  const totalViewsEl = document.getElementById('total-views');
+  if (totalViewsEl) {
+    fetch(`${apiBase}?type=views`)
+      .then(r => r.json())
+      .then(data => {
+        totalViewsEl.textContent = data.count;
+      });
+  }
   // 觀看次數
   const viewsEl = document.getElementById('views-count');
   if (viewsEl) {
@@ -40,12 +49,4 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => btn.classList.remove('clapped'), 300);
       });
   });
-  const totalViewsEl = document.getElementById('total-views');
-  if (totalViewsEl) {
-    fetch(`${apiBase}?type=views`)
-      .then(r => r.json())
-      .then(data => {
-        totalViewsEl.textContent = data.count;
-      });
-  }
 });
