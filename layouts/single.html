@@ -25,6 +25,9 @@
 			  - <time datetime="{{ $dateMachine }}">{{ $lastModTimeHuman }}</time>
             </li>
             {{ end }}
+			<li class="breadcrumb-item small">
+              👁 <span id="views-count" data-page="{{ .RelPermalink }}">-</span>
+            </li>
           </ol>
         </div>
       </header>
