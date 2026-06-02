@@ -39,6 +39,10 @@
       <article>
         {{ .Content }}
       </article>
+	  <div class="mt-5 claps-container" data-page="{{ .RelPermalink }}">
+        <button class="claps-btn" id="claps-btn">👏</button>
+        <span class="claps-count" id="claps-count">0</span>
+      </div>
 	  {{ $series := site.Data.taxonomy.series }}
 	  {{ $tpublishers := site.Data.taxonomy.tpublishers }}
 	  {{ $jpublishers := site.Data.taxonomy.jpublishers }}
@@ -85,10 +89,6 @@
       {{ end }}
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       <div data-pagefind-ignore>{{ partial "post-pagination.html" . }}</div>
-	  <div class="mt-5 claps-container" data-page="{{ .RelPermalink }}">
-        <button class="claps-btn" id="claps-btn">👏</button>
-        <span class="claps-count" id="claps-count">0</span>
-      </div>
 	  <div class="mt-5"><a href="#top" class="text-decoration-none">📌回到頁面最上方</a></div>
       <!--<div class="mt-5"  id="cusdis_thread"
         data-host="https://cusdis.com"
