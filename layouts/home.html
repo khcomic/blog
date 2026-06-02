@@ -2,6 +2,9 @@
 {{ $title := print .Site.Title " | " .Title}}
 {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
 <div class="container pt-5">
+    <div class="col-md-12 mb-4">
+        <p>本站累積瀏覽 <span id="total-views">-</span> 次</p>
+    </div>
     <div class="col-md-12">
         <p class="lh-lg">
             {{ readFile "static/home_top.md" | markdownify }}

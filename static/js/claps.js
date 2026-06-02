@@ -40,4 +40,12 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => btn.classList.remove('clapped'), 300);
       });
   });
+  const totalViewsEl = document.getElementById('total-views');
+  if (totalViewsEl) {
+    fetch(`${apiBase}?type=views`)
+      .then(r => r.json())
+      .then(data => {
+        totalViewsEl.textContent = data.count;
+      });
+  }
 });
