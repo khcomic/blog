@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="container pt-5" data-pagefind-ignore>
+  <h5>觀看次數</h5>
+  <table class="table table-sm mt-3">
+    <thead>
+      <tr>
+        <th>文章</th>
+        <th>更新時間</th>
+        <th>觀看</th>
+      </tr>
+    </thead>
+    <tbody id="stats-body">
+      {{ range first 10 (.Site.RegularPages.ByLastmod.Reverse) }}
+      <tr data-page="{{ .RelPermalink }}">
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td class="small">{{ .Lastmod | time.Format ":date_short" }}</td>
+        <td class="views-cell">-</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const apiBase = 'https://claps.khcomic.com';
+    document.querySelectorAll('#stats-body tr[data-page]').forEach(function(row) {
+      const pageId = row.getAttribute('data-page');
+      fetch(`${apiBase}?page=${encodeURIComponent(pageId)}&type=views`)
+        .then(r => r.json())
+        .then(data => {
+          row.querySelector('.views-cell').textContent = data.count;
+        });
+    });
+  });
+</script>
+{{ end }}
