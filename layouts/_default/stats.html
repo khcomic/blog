@@ -13,7 +13,7 @@
       {{ range first 10 (.Site.RegularPages.ByLastmod.Reverse) }}
       <tr data-page="{{ .RelPermalink }}">
         <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
-        <td class="small">{{ .Lastmod | time.Format ":date_short" }}</td>
+        <td class="small">{{ .Lastmod | time.Format "06/01/02" }}</td>
         <td class="views-cell">-</td>
       </tr>
       {{ end }}
