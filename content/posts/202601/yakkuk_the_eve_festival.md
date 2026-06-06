@@ -1,7 +1,7 @@
 +++
-title = 'Yakkuk《前夜祭》'
+title = 'Yakkuk/약국《前夜祭》'
 date = 2026-01-30T00:00:00+08:00
-tags = ["Yakkuk", "平心", "長篇", "電子書", "Gobooky Books	"]
+tags = ["Yakkuk/약국", "平心", "長篇", "電子書", "Gobooky Books	"]
 draft = false
 lastmod = '2026-05-31T13:56:48+08:00'
 booktitle = "《前夜祭》"
