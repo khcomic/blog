@@ -11,8 +11,6 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260606/ya
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260606/yakkuk_0.jpg)
 
-**此文原於2026/01/30發表在threads @kh.blcomic。**
-
 ![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260606/yakkuk_1.jpg)
 
 .
