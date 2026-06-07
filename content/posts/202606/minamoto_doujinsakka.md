@@ -6,7 +6,7 @@ draft = false
 lastmod = '2026-06-06T17:46:22+08:00'
 booktitle = "《人氣同人作家貓屋敷想得到認同》"
 summary = "看第1集的時候就一直邊看邊哭，是我很喜歡的題材！同人作家貓屋敷與偶像一星，兩人是自小的好友，國中畢業後卻再也沒有見面。"
-image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/"
+image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260606/doujin.jpg"
 +++
 <!--more-->
 ![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260606/doujin.jpg)
