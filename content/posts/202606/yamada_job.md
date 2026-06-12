@@ -5,7 +5,7 @@ tags = ["山田ユギ/山田靫", "尖端", "長篇", "竹書房"]
 draft = false
 lastmod = '2026-06-11T22:33:24+08:00'
 booktitle = "《無法持續一生的工作》"
-summary = "好的BL之所以好看絕對不只是因為它是BL，而是因為他它先是個好故事，再來才因為BL加分。"
+summary = "超喜歡油條男，超喜歡笨蛋黃金獵犬男，不知道為什麼老師畫的角色就是好帥喔😭"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260611/job_0.jpg"
 +++
 <!--more-->
