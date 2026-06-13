@@ -7,15 +7,19 @@
     </div>
   </div>
 </div>
-
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
+<style>
+  .pagefind-ui__filter-panel {
+    display: none !important;
+  }
+</style>
 <script>
   new PagefindUI({ 
     element: "#search", 
     showSubResults: true,
-    filters: {
-      section: ["posts"]
+    baseFilters: {
+      section: "posts"
     }
   });
 </script>
