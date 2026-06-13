@@ -11,6 +11,12 @@
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
 <script>
-  new PagefindUI({ element: "#search", showSubResults: true });
+  new PagefindUI({ 
+    element: "#search", 
+    showSubResults: true,
+    filters: {
+      section: "posts"
+    }
+  });
 </script>
 {{ end }}
