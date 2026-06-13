@@ -39,7 +39,7 @@
         {{ .TableOfContents }}
       </div>
       {{ end }}
-      <article data-pagefind-filter="section:posts">
+      <article data-pagefind-body data-pagefind-filter="section:posts">
         {{ .Content }}
       </article>
 	  <div class="mt-5 claps-container" data-page="{{ .RelPermalink }}">
