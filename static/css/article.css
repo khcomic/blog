@@ -64,7 +64,7 @@
 }
 
 mark {
-  background-color: #ffeb3b;
-  color: inherit;
+  background-color: #ffeb3b !important;;
+  color: inherit !important;;
   padding: 0 2px;
 }
