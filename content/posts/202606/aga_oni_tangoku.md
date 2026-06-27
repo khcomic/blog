@@ -140,7 +140,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260628/te
 
 神到不可思議、神到無以復加、神到不可能再更幸福，神到如果沒看到這幕我後悔一輩子，但是如果沒看到我也不知道我沒看到會後悔一輩子，總之你沒看會後悔一輩子。
 
-![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260628/tengoku_15.jpg)
+![fx](https://images.khcomic.com/202606/20260628/tengoku_15.jpg)
 
 .
 
