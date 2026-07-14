@@ -36,7 +36,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202607/20260715/re
 <br>我看見了隱藏在故事後面老師想傳達的東西，
 <br>企圖心很強烈。
 
-太貪心了，有時減法的美學還是很重要的。
+太貪心了，有時減法的美學還是很重要。
 
 
 {{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202607/20260715/red_theater_01.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202607/20260715/red_theater_02.jpg" >}}
