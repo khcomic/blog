@@ -21,7 +21,7 @@ draft = false
 ---
 
 有什麼建議都隨時歡迎你回饋🖐🏻
-- [Threads](https://www.threads.com/@kh.is.not.happy)
+- [Threads](https://www.threads.com/@kh.is.now.insane)
 - Email : kh.bl.comic@gmail.com
 
 
