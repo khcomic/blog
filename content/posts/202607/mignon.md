@@ -1,7 +1,7 @@
 +++
-title = 'Bboungbbangkkyu《Mignon》'
+title = 'Bboungbbangkkyu/뿡빵뀨《Mignon》'
 date = 2026-07-29T15:51:18+08:00
-tags = ["Bboungbbangkkyu", "平心", "長篇"]
+tags = ["Bboungbbangkkyu/뿡빵뀨", "平心", "長篇", "ABJ Company"]
 draft = false
 lastmod = '2026-07-29T15:51:18+08:00'
 booktitle = "《Mignon》"
@@ -41,7 +41,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202607/20260729/mi
 
 不說太多了，
 <br>Bomtoon已經上線，
-<br>先等我再複習一下[《過度呼吸》](https://www.eslite.com/product/1001272022853091)，
+<br>先等我再複習一下[《過度呼吸》](../hyperventilation)，
 <br>晚點我也要去看漫畫啦🤩
 
 聽說平心已經取得代理，
