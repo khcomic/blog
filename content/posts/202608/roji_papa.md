@@ -62,6 +62,6 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260801/ro
 
 {{< gallery images="https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260801/roji_papa_5.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260801/roji_papa_6.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260801/roji_papa_7.jpg|https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260801/roji_papa_8.jpg" >}}
 
-謝謝子葦大力推廣這本書，
+謝謝葦子大力推廣這本書，
 <br>現在他正在舉辦推廣[活動](https://www.threads.com/@wei_ashi/post/DbZ5lS5Gl_A)，
 <br>歡迎大家去參加。（到8/2中午12點）
