@@ -1,11 +1,11 @@
 +++
 title = '田倉トヲル《戀物語》'
 date = 2026-08-06T21:11:52+08:00
-tags = ["田倉トヲル", "台灣東販", "長篇", "日本出版社"]
+tags = ["田倉トヲル", "台灣東販", "長篇", "幻冬舎"]
 draft = false
 lastmod = '2026-08-06T21:11:52+08:00'
 booktitle = "《戀物語》"
-summary = ""
+summary = "前幾天因緣際會收到老師的第一本商業作《情愛大提琴》，開啟了契機重讀《戀物語》。這部是我人生中接觸到非常重要的作品，與《小木的暑假》、《島波黃昏來者何人》、《北投女巫》、《STRANGE 不可思議的相遇》並列。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260806/tagura_koimonogatari_0.jpg"
 +++
 <!--more-->
