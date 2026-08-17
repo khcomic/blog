@@ -5,7 +5,7 @@ tags = ["阿糜/蔡蔬菜", "一木工作室", "單集", "電子書"]
 draft = false
 lastmod = '2026-08-17T23:54:18+08:00'
 booktitle = "《一狗》"
-summary = ""
+summary = "定期推廣，阿糜老師的商業出版作品《一狗》，諧音自EAGLE，非常好看的作品。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202512/20251228/ami_ego_0.jpg"
 +++
 <!--more-->
