@@ -1,0 +1,23 @@
++++
+title = '阿糜/蔡蔬菜《拎北娶了個阿斗仔》'
+date = 2026-08-17T23:44:03+08:00
+tags = ["阿糜/蔡蔬菜", "單集"]
+draft = false
+lastmod = '2026-08-17T23:44:03+08:00'
+booktitle = "《拎北娶了個阿斗仔》"
+summary = "偶真ㄉ太快樂……布穀買ㄉ本現在才拆開來看……這是2019捏……老師偶愛你……這本根本是《一狗》ㄉ前身ㄅ……"
+image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260817/ami_marry_0.jpg"
++++
+<!--more-->
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260817/ami_marry_0.jpg)
+
+偶真ㄉ太快樂……
+<br>布穀町買ㄉ本現在才拆開來看……
+<br>這是2019捏……老師偶愛你……
+<br>這本根本是《一狗》ㄉ前身ㄅ……
+<br>我ㄉ前帳號ㄉ《一狗》心得文放下面拜偷去買……
+<br>偶永遠支持老師……
+<br>阿糜真的是靈魂繪師……
+
+![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202608/20260817/ami_marry_1.jpg)
+
