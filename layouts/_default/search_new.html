@@ -1,0 +1,72 @@
+{{ define "main" }}
+<div class="container pt-3">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>搜尋</h2>
+      <input type="text" id="search-input" placeholder="輸入關鍵字搜尋…" class="form-control mb-3">
+      <div id="search-results"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .search-result {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #eee;
+  }
+  .search-result h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.1rem;
+  }
+  .search-result p {
+    margin: 0;
+    color: #555;
+  }
+</style>
+
+<script type="module">
+  const pagefind = await import("/pagefind/pagefind.js");
+  await pagefind.options({ baseUrl: "/" });
+
+  const input = document.getElementById("search-input");
+  const resultsEl = document.getElementById("search-results");
+  let debounceTimer;
+
+  input.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => runSearch(input.value.trim()), 300);
+  });
+
+  async function runSearch(query) {
+    resultsEl.innerHTML = "";
+    if (!query) return;
+
+    const search = await pagefind.search(query, {
+      filters: { section: "posts" }
+    });
+
+    const results = await Promise.all(search.results.map(r => r.data()));
+
+    // 精準比對：只保留標題或內文「真的」包含完整查詢字串的結果
+    // 解決中文被拆字（例如「東京」被切成「東」+「京」）誤判的問題
+    const filtered = results.filter(r =>
+      r.content.includes(query) || r.meta.title.includes(query)
+    );
+
+    if (filtered.length === 0) {
+      resultsEl.innerHTML = "<p>找不到符合的結果。</p>";
+      return;
+    }
+
+    for (const r of filtered) {
+      const item = document.createElement("div");
+      item.className = "search-result";
+      item.innerHTML = `
+        <h3><a href="${r.url}">${r.meta.title}</a></h3>
+        <p>${r.excerpt}</p>
+      `;
+      resultsEl.appendChild(item);
+    }
+  }
+</script>
+{{ end }}
