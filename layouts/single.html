@@ -3,7 +3,7 @@
 
     <div class="post">
       <header class="mb-4">
-        <h4 class="text-uppercase">{{ .Title }}</h4>
+        <h4 class="text-uppercase" data-pagefind-meta="title">{{ .Title }}</h4>
         {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
         {{ $dateHuman := .Date | time.Format ":date_long" }}
 		{{ $TimeHuman := .Date | time.Format ":time_short" }}

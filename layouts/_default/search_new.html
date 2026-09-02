@@ -47,11 +47,15 @@
 
     const results = await Promise.all(search.results.map(r => r.data()));
 
+    console.log("過濾前，候選結果標題：", results.map(r => r.meta.title));
+
     // 精準比對：只保留標題或內文「真的」包含完整查詢字串的結果
     // 解決中文被拆字（例如「東京」被切成「東」+「京」）誤判的問題
     const filtered = results.filter(r =>
       r.content.includes(query) || r.meta.title.includes(query)
     );
+
+    console.log("過濾後，剩下的標題：", filtered.map(r => r.meta.title));
 
     if (filtered.length === 0) {
       resultsEl.innerHTML = "<p>找不到符合的結果。</p>";
