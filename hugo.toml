@@ -12,6 +12,7 @@ summaryLength = 10
 
 [outputs]
 home = ["HTML", "JSON"]
+section = ["HTML", "JSON"]
 
 [markup.goldmark.renderer]
 unsafe = true
