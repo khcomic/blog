@@ -1,0 +1,24 @@
+{{- $dest := .Destination -}}
+{{- $isRelative := or (strings.HasPrefix $dest "./") (strings.HasPrefix $dest "../") -}}
+{{- if $isRelative -}}
+  {{- $path := $dest -}}
+  {{- $fragment := "" -}}
+  {{- if strings.Contains $path "#" -}}
+    {{- $parts := strings.Split $path "#" -}}
+    {{- $path = index $parts 0 -}}
+    {{- $fragment = index $parts 1 -}}
+  {{- end -}}
+  {{- $path = strings.TrimSuffix ".md" $path -}}
+  {{- $joined := path.Join .Page.File.Dir $path -}}
+  {{- $target := site.GetPage $joined -}}
+  {{- if $target -}}
+    {{- $href := $target.RelPermalink -}}
+    {{- if $fragment -}}{{- $href = printf "%s#%s" $href $fragment -}}{{- end -}}
+    {{- $summary := $target.Params.summary | default $target.Summary | plainify -}}
+<a href="{{ $href }}" class="link-preview-trigger"{{ with .Title }} title="{{ . }}"{{ end }} data-preview-title="{{ $target.Title }}" data-preview-summary="{{ $summary }}"{{ with $target.Params.image }} data-preview-image="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+  {{- else -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+  {{- end -}}
+{{- else -}}
+<a href="{{ $dest | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- end -}}
