@@ -61,4 +61,5 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202609/20260912/bl
 <br>他還再折10塊我真的不敢相信😭
 
 真的非常感謝😭🤲🏻
-![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202609/20260912/black_snow_fox_4.jpg)
+
+![fx](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202609/20260912/black_snow_fox_5.jpg)
