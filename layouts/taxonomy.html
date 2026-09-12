@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="container pt-5" data-pagefind-ignore>
-
+    {{ $misc := site.Data.taxonomy.misc }}
     {{ $series := site.Data.taxonomy.series }}
     {{ $tpublishers := site.Data.taxonomy.tpublishers }}
     {{ $jpublishers := site.Data.taxonomy.jpublishers }}
@@ -11,6 +11,20 @@
     <!-- ========================= -->
 	
 	<h3>總覽</h3>
+	
+    <!-- 雜記 -->
+    <span class="terms-char d-block mt-3 mb-2">雜記</span>
+    
+    <div class="d-flex flex-wrap gap-2">
+    {{ range sort .Site.Taxonomies.tags }}
+        {{ if in $misc .Page.Title }}
+            <a class="badge bg-light text-dark text-decoration-none"
+               href="{{ .Page.Permalink }}">
+                {{ .Page.Title }} ({{ .Count }})
+            </a>
+        {{ end }}
+    {{ end }}
+    </div>	
 	
     <!-- 有電子書 -->
     <span class="terms-char d-block mt-3 mb-2">有電子書</span>
@@ -92,6 +106,7 @@
             (not (in $tpublishers .Page.Title))
 			(not (in $jpublishers .Page.Title))
 			(not (in $kpublishers .Page.Title))
+			(not (in $misc .Page.Title))
             (ne .Page.Title "電子書")
         }}
             <a class="badge bg-light text-dark text-decoration-none"

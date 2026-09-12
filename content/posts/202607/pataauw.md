@@ -1,7 +1,7 @@
 +++
 title = '《北投女巫》簽書會'
 date = 2026-07-24T20:00:19+08:00
-tags = ["北投女巫", "台灣角川", "長篇", "LINE WEBTOON"]
+tags = ["簡士頡", "台灣角川", "長篇", "LINE WEBTOON"]
 draft = false
 lastmod = '2026-07-24T20:00:19+08:00'
 booktitle = "《北投女巫》簽書會"
