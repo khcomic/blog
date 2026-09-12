@@ -48,29 +48,36 @@ unsafe = true
     weight = 4
 
   [[menu.main]]
+    identifier = "ㄅㄆㄇ書單"
+    name = "ㄅㄆㄇ書單"
+    title = "ㄅㄆㄇ書單"
+    url = "/abc"
+    weight = 5
+
+  [[menu.main]]
     identifier = "threads"
     name = "threads"
     title = "Threads"
     url = "https://www.threads.com/@kh.is.now.insane"
-    weight = 5
+    weight = 6
 	
   [[menu.main]]
     identifier = "threads_old"
     name = "legacy"
     title = "Threads"
     url = "https://www.threads.com/@kh.blcomic"
-    weight = 6
+    weight = 7
 	
   [[menu.main]]
     identifier = "search"
     name = "search"
     title = "Search"
     url = "/search"
-    weight = 7
+    weight = 8
 
   [[menu.main]]
     identifier = "contact"
     name = "contact"
     title = "Threads"
     url = "mailto:kh.bl.comic@gmail.com"
-    weight = 8
+    weight = 9
