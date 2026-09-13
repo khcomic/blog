@@ -48,9 +48,9 @@ unsafe = true
     weight = 4
 
   [[menu.main]]
-    identifier = "ㄅㄆㄇ書單"
-    name = "ㄅㄆㄇ書單"
-    title = "ㄅㄆㄇ書單"
+    identifier = "recommendations"
+    name = "recommendation"
+    title = "recommendation"
     url = "/abc"
     weight = 5
 
