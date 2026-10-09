@@ -16,7 +16,7 @@ image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202610/20261009/ta
 很好看！
 <br>讓人想起《摸摸啾PUB》的題材😋
 
-這是一家提供提供療癒酒吧，
+這是一家提供療癒的酒吧，
 <br>可以與調酒師牽手、擁抱，
 <br>也可以選擇褪去上衣的肌膚之親。
 
