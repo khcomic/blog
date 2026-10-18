@@ -68,3 +68,7 @@ mark {
   color: inherit !important;;
   padding: 0 2px;
 }
+
+.video-embed { margin: 1.5em 0; }
+.video-embed video { display: block; max-width: 100%; height: auto; }
+.video-embed figcaption { text-align: center; font-size: .9em; opacity: .7; }

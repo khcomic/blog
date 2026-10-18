@@ -1,0 +1,13 @@
+{{- $src := .Get "src" | default (.Get 0) -}}
+{{- if not (hasPrefix $src "http") -}}
+  {{- $src = printf "https://images.khcomic.com/%s" (strings.TrimPrefix "/" $src) -}}
+{{- end -}}
+<figure class="video-embed">
+  <video controls preload="metadata" playsinline{{ with .Get "poster" }} poster="{{ . }}"{{ end }}>
+    <source src="{{ $src }}" type="video/mp4">
+    你的瀏覽器不支援 video 標籤。
+  </video>
+  {{- with .Get "caption" }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>
