@@ -5,7 +5,7 @@ tags = ["暮", "長鴻", "單集", "電子書", "リブレ(Libre)"]
 draft = false
 lastmod = '2026-06-21T23:44:35+08:00'
 booktitle = "《哥哥遺落的戀情行蹤》"
-summary = ""
+summary = "我很喜歡投注在本作中的感傷氣氛。老師選擇把重點擺在幸人身上，每每透過跟一樹的對話，或是從各種生活細節中憶起亡夫的存在，那恰到好處的憂愁讓我非常喜歡。"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202606/20260621/kure_0.jpg"
 +++
 <!--more-->
