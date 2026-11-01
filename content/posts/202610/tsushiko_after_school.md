@@ -5,7 +5,7 @@ tags = ["つし子", "青文", "單集", "電子書", "Jパブリッシング(J 
 draft = false
 lastmod = '2026-11-01T00:59:07+08:00'
 booktitle = "《虛幻的放學後》"
-summary = ""
+summary = "白髮健壯不良受，我的最愛😋<br>胸腹加上抬起的🍑，搭配傲嬌的美妙風味🤩而且是白色線條不是白光！"
 image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202610/20261031/tsushiko_after_school_0.jpg"
 +++
 <!--more-->
