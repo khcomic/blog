@@ -6,10 +6,10 @@ draft = false
 lastmod = '2026-11-24T22:01:18+08:00'
 booktitle = "《請將爸爸託付給我》"
 summary = "好可愛🥺又被療癒了🥺<br>真的好喜歡木下老師😭<br>這部是幼兒園老師與單親爸爸的故事，<br>我很喜歡這個題材！"
-image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/檔名"
+image = "https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202611/20261124/keiko_otousan.jpg"
 +++
 <!--more-->
-![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/檔名)
+![](https://images.khcomic.com/cdn-cgi/image/f=avif,q=80/202611/20261124/keiko_otousan.jpg)
 
 好可愛🥺又被療癒了🥺
 <br>真的好喜歡木下老師😭
